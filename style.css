@@ -1,0 +1,126 @@
+body{
+    width: 98%;
+    max-width: 100%;
+    margin: 0px auto;
+    text-align: left;
+ }
+.logo{
+	width: 100%;
+	height: 50pt;
+	background-color: grey;
+}
+#gora{
+	color: blue;
+	margin-bottom: 20px;
+}
+#stopka{
+	margin-top: 20px;
+	color: black;
+}
+h2{
+	text-align: center;
+}
+.float{
+	float:left;
+	width: 50%;
+	padding: 0;
+	margin: 0;
+}
+.lewyFloat{
+	float:left;
+	width: 24.15%;
+	padding: 0;
+	margin: 0;
+}
+.padding{
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.srodek{
+	background: pink; 
+	height: 300pt;
+	width: 100%;
+}
+.lewo{
+	width: 100%;
+	background: pink;
+	height:25pt;
+	margin-bottom: 2px;
+	box-shadow: 1px 1px;
+}
+div.srodek.links{
+	height: 250pt;
+}
+ul.noDeco1{
+	list-style-type: none;
+	padding: 0;
+}
+ul{
+	margin-top: 0;
+}
+.clr{
+	clear: both;
+}
+ul.noDeco1 li {
+  	display: block;
+}
+ul.noDeco1 li span {
+	display: inline-block;  
+	vertical-align: middle;     
+}
+ul.noDeco1 li:before{
+	content: '';
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;       
+}
+a{
+	margin-left: 4px;
+	vertical-align: middle;
+}
+input{
+	display: block;		}
+.tableWidth{
+	width:250px;
+}
+#radiobox{
+	width: 200px;
+}
+.noDeco{
+	text-decoration: none;
+	color: black;
+}
+table{
+	padding-left: 25px;
+	padding-top: 20px;
+}
+.noBackground{
+	background: white;
+}
+.floatless{
+	float:left;
+}
+#sendButton{
+	display: flex; 
+	justify-content: center;
+}
+.linkPadding{
+	list-style: circle; 
+	padding-left: 60px; 
+	padding-top: 30px;
+}
+div.row{
+	box-sizing: border-box;
+}
+div.column{
+	box-sizing: border-box;
+}
+.row {
+	height: 40px;
+	display: flex;
+	padding-left: 20px;
+}
+.column {
+  	flex: 50%;
+  	padding: 20px;
+}
